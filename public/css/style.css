@@ -1,0 +1,30 @@
+html {
+	
+}
+body {
+
+}
+#d1 {
+	background-color: #3b5997;
+}
+#d1 img {
+	width: 120px;
+	height: 80px;
+	margin-left: 40px;
+}
+#d1 form{
+	margin-top: .5em;
+	float: right;
+	margin-right: .5em;
+}
+#d1 input{
+	margin-left: .5em;
+}
+#d1 label{
+	margin-left: .5em;
+	color: #ffffff;
+}
+#d1 a{
+	margin-left: .5em;
+	color: #859ec9;
+}
