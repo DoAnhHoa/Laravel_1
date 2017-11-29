@@ -43,6 +43,8 @@ class CatController extends Controller
 	{
 		$currentUser = Auth::user();
 		$inputs = Input::all();
+
+
 		
 		$inputs['user_id'] = $currentUser->id;
 		$cat = Cat::create($inputs);
