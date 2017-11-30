@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.app')
 @section('header')
 	<a href="{{url('/')}}">Back to</a>
 	<h2>{{$cat->name}}</h2>

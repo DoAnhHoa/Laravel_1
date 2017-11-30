@@ -71,7 +71,17 @@
             </div>
         </nav>
 
-        @yield('content')
+        <div class="container">
+            @yield('header')
+        
+            @if (Session::has('success'))
+                <div class="alert alert-success">
+                    {{Session::get('success')}}
+                </div>
+            @endif
+
+            @yield('content')
+        </div>
     </div>
 
     <!-- Scripts -->

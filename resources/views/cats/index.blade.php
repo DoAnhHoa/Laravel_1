@@ -1,11 +1,11 @@
-@extends('layouts.master')
+@extends('layouts.app')
 @section('header')
 	@if (isset($breed))
 		<a href="{{url('/')}}">Back to over view</a>
 	@endif
 	<h2>All @if(isset($breed)) {{$breed->name}} @endif Cats</h2>
 	@if(Auth::check())
-		<a href="{{url('cats/create')}}" class="btn btn-primary">New cat</a>
+		<a href="{{url('cats/create')}}" class="btn btn-primary">New cat</a><br><br>
 	@endif
 @stop
 @section('content')

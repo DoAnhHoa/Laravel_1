@@ -41,4 +41,4 @@ Route::get('test-cats', function(){
 });
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'CatController@index')->name('home');
